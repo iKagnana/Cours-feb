@@ -320,3 +320,69 @@ l'axe principal et le cross-axis et ça change en fonction de l'orientation
 
 Quand on utilise des attributs, se poser la question :
 - si ça un effet sur le container (la flexbox) ou les items à l'intérieur (ses enfants)
+
+
+Pour la prochaine fois : 
+xampp ou docker à installer
+
+
+## Taille 
+- rem : taille en fonction de la police du navigateur
+- % : permet de gérer la taille en fonction du parent
+
+
+# Cours de mars
+### Javascript
+Javascript a été inventé comme langage de script pour les sites web ⇒ fait pour manipuler le dom 
+
+⇒ Ce n’est pas un langage fortement typé 
+
+<aside>
+💡 à chaque fois qu’on écrit un bloc de code ⇒ sauvegarder et exécuter pour voir si notre programme fonctionne et savoir détecter les erreurs
+
+</aside>
+
+Types de variables :
+
+- string
+- number (tous les types de nombre, integer, float etc….)
+- boolean
+- array
+- object
+
+<aside>
+💡 si on veut faire une application monétaire, ne pas prendre js car pas de type précis pour les nombres et risque de perte de donnée
+
+</aside>
+
+- `typeof` : pour avoir le type de la variable
+
+**typescript** : surcouche du js 
+
+pour les chaînes de caractères si on veut écrire sur plusieurs lignes ⇒ `Hello
+
+World`
+Si on veut mettre une apostrophe dans une chaîne de caractère délcarée entre apostrophe ⇒ \’ pour dire qu’on veut l’afficher comme une chaîne de caractère
+
+**Les propriété js peuvent modifier la valeur ou retourner une copie de la valeur modifié**
+
+Le type de variable retourner après :
+
+Méthode for ⇒ (let index = 0; index < array.length; index++) || (initialisaiton; condition; incrémentation) || for (variable in object) || for (variable of iterable) ⇒ pour les arrays)
+
+opérateur ternaire ⇒ condition ? siVraie : siFausse
+
+do…while ⇒ while (tant que) ⇒ elle s’exécute au moins une fois avant qu’on vérifie la condition 
+
+fonction synthaxe : const soustraire = (a,b) ⇒ a - b (le return est implicite)
+
+<hr>
+
+## Consignes pour cette semaine
+Ecrire en CamelCase
+
+Penser à mettre des points-virgules (soit on les mets de partout, soit on les mets nul part)
+
+**faire attention avec le mot clé ‘var’ (pas le droit d’utiliser dans le cours)**
+
+⇒ utilisation le plus possible de **const**
